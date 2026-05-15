@@ -18,8 +18,12 @@ website:
   page-footer:
     left: "© Ali Arbabian"
     right:
-      - text: "RSS"
-        href: writing.xml
+      - icon: github
+        href: "https://github.com/a-arbabian"
+        aria-label: "GitHub"
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/a-arbabian/"
+        aria-label: "LinkedIn"
   open-graph: true
   twitter-card: true
 

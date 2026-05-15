@@ -6,14 +6,19 @@ page-layout: article
 
 ## Selected Projects
 
-### First Project
+### [cinemantic](https://cinemantic.aliarby.com)
 
-Add the first external project here once the public URL and short description are ready.
+Semantic search over a large collection of movie frames, roughly 150k images. The project explores how embedding-based search changes the way visual archives can be navigated.
 
-- Link: add the public project URL before launch.
-- Status: placeholder
-- Focus: concise technical summary of what the project does and why it matters.
+### [code-indexer](https://github.com/a-arbabian/code-indexer)
 
-## Future Work
+Token-efficient structural skeletons from source files for LLM context and retrieval. The goal is to preserve the shape of a codebase while keeping prompts and retrieval payloads compact.
 
-Use this page as a lightweight index rather than a full portfolio. Each project should have a short description, a link, and a note about the core technical idea.
+### [chess_theory_tree_visualizer](https://github.com/a-arbabian/chess_theory_tree_visualizer)
+
+A tree visualization for chess game databases, mapping games into opening theory and ECO-code structure.
+
+## Profiles
+
+- [GitHub](https://github.com/a-arbabian)
+- [LinkedIn](https://www.linkedin.com/in/a-arbabian/)

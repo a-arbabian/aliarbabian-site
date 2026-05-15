@@ -1,13 +1,9 @@
 ---
 title: "Writing"
 description: "Technical articles and notes."
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  feed: true
 page-layout: article
 ---
 
-Technical notes, implementation writeups, and essays on software, machine learning, systems, and engineering practice.
+Notes on AI research, software as a medium, machine learning systems, and engineering practice.
+
+No long-form posts are published here yet. Older notes live at [aliarby.bearblog.dev](https://aliarby.bearblog.dev/).

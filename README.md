@@ -16,6 +16,8 @@ Render the static site with:
 quarto render
 ```
 
+RSS is intentionally disabled until there are public posts in this Quarto site.
+
 ## GitHub Pages
 
 This repository is configured to publish from GitHub Actions. After pushing to GitHub:

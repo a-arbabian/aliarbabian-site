@@ -6,25 +6,27 @@ page-layout: article
 
 ::: {.profile-header}
 ::: {.profile-copy}
-I work on practical software systems, machine learning, and technical writing. This site collects a short bio, project notes, and longer articles about engineering ideas worth returning to.
+I am a machine learning engineer working on applied ML, computer vision, and the software systems around them. I currently work at Meta, and previously worked on ML and computer vision for autonomous retail systems.
 
-My current interests include machine learning systems, developer tools, autonomous systems, applied research, media tooling, and concise technical communication.
+I use this site for projects and notes around AI research, retrieval, media tooling, and software as a medium.
 :::
 :::
 
-## Research and Technical Interests
+## Interests
 
-- Machine learning systems that make model behavior observable, testable, and useful in production.
-- Tools for turning messy real-world media, text, and data into reliable workflows.
-- Interfaces for technical users where the product surface stays quiet and the capability is deep.
-- Writing that connects implementation details to the larger engineering decisions behind them.
+- Machine learning systems and computer vision for real-world products.
+- Search, retrieval, and code-understanding tools for working with large information spaces.
+- Media interfaces that make images, video, and text easier to explore.
+- Writing about AI research, engineering practice, and software as a creative material.
 
-## Selected Links
+## Links
 
 - [Writing](writing.qmd): technical notes and essays.
 - [Projects](projects.qmd): software projects and experiments.
-- GitHub: add the public profile link before launch.
+- [GitHub](https://github.com/a-arbabian): code and open-source work.
+- [LinkedIn](https://www.linkedin.com/in/a-arbabian/): work experience and professional background.
+- [Bear Blog archive](https://aliarby.bearblog.dev/): earlier writing and project notes.
 
-## Now
+## Work
 
-This page is intentionally compact. Add the most current affiliation, location, research focus, and contact links here as the site becomes public.
+I am based in Vancouver and work across applied machine learning, product engineering, and tools for understanding visual and textual data.
