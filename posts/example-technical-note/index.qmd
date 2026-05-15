@@ -1,0 +1,26 @@
+---
+title: "Example Technical Note"
+description: "A placeholder article showing the structure for future posts."
+date: "2026-05-15"
+categories: [notes, systems]
+author: "Ali Arbabian"
+draft: false
+---
+
+## Problem
+
+Describe the concrete engineering problem. Keep the setup short enough that a reader can understand the constraints before seeing the implementation details.
+
+## Approach
+
+Explain the chosen design and the tradeoffs. Prefer precise claims over broad summaries.
+
+## Notes
+
+Use margin notes when a point is useful but secondary.[^1]
+
+[^1]: Quarto footnotes render cleanly and can be styled to feel close to Tufte-style sidenotes.
+
+## Result
+
+Summarize what changed, what worked, and what remains open.

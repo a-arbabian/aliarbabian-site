@@ -1,0 +1,181 @@
+/*-- scss:defaults --*/
+$font-family-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$font-family-monospace: "SFMono-Regular", Menlo, Consolas, monospace;
+$body-bg: #fffff8;
+$body-color: #111111;
+$link-color: #8f2f1b;
+$navbar-bg: #fffff8;
+$navbar-fg: #111111;
+$navbar-hl: #8f2f1b;
+
+/*-- scss:rules --*/
+:root {
+  --site-measure: 720px;
+  --site-wide-measure: 1040px;
+  --rule-color: rgba(17, 17, 17, 0.16);
+}
+
+body {
+  font-family: $font-family-serif;
+  font-size: 18px;
+  line-height: 1.62;
+  text-rendering: optimizeLegibility;
+}
+
+.navbar {
+  border-bottom: 1px solid var(--rule-color);
+  font-family: $font-family-sans-serif;
+  font-size: 0.92rem;
+}
+
+.navbar-title {
+  font-weight: 600;
+}
+
+.quarto-title-block .title {
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  line-height: 1;
+  letter-spacing: 0;
+  margin-bottom: 1rem;
+}
+
+.quarto-title-meta {
+  font-family: $font-family-sans-serif;
+  font-size: 0.88rem;
+}
+
+main.content {
+  max-width: var(--site-wide-measure);
+}
+
+main.content > * {
+  max-width: var(--site-measure);
+}
+
+main.content > .column-margin,
+main.content > .margin-caption,
+main.content > .margin-ref {
+  max-width: none;
+}
+
+p,
+li {
+  max-width: var(--site-measure);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.listing-title,
+.listing-date,
+.listing-description,
+.navbar,
+.page-footer {
+  font-family: $font-family-sans-serif;
+}
+
+h2 {
+  border-bottom: 1px solid var(--rule-color);
+  font-size: 1.35rem;
+  letter-spacing: 0;
+  margin-top: 2.7rem;
+  padding-bottom: 0.35rem;
+}
+
+h3 {
+  font-size: 1.05rem;
+  letter-spacing: 0;
+  margin-top: 1.8rem;
+}
+
+a {
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.16em;
+}
+
+blockquote {
+  border-left: 2px solid var(--rule-color);
+  color: #333333;
+  font-size: 1.05rem;
+  margin-left: 0;
+  padding-left: 1.25rem;
+}
+
+code {
+  font-size: 0.88em;
+}
+
+pre,
+.cell-output {
+  border: 1px solid var(--rule-color);
+  border-radius: 6px;
+}
+
+.profile-header {
+  border-bottom: 1px solid var(--rule-color);
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.profile-copy {
+  font-size: 1.15rem;
+  line-height: 1.58;
+}
+
+.quarto-listing .listing {
+  border-top: 1px solid var(--rule-color);
+}
+
+.quarto-listing .quarto-post {
+  border-bottom: 1px solid var(--rule-color);
+  padding: 1rem 0;
+}
+
+.listing-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.listing-date,
+.listing-description,
+.listing-categories {
+  font-size: 0.9rem;
+}
+
+.page-footer {
+  border-top: 1px solid var(--rule-color);
+  font-size: 0.88rem;
+}
+
+.footnotes {
+  border-top: 1px solid var(--rule-color);
+  font-size: 0.9rem;
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 19px;
+  }
+
+  main.content {
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    font-size: 17px;
+  }
+
+  .quarto-title-block .title {
+    font-size: 2.25rem;
+  }
+
+  main.content {
+    max-width: 100%;
+  }
+}

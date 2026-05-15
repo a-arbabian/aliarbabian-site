@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Ali Arbabian"
+  site-url: "https://aliarbabian.com"
+  description: "Personal site and technical writing by Ali Arbabian."
+  navbar:
+    pinned: true
+    left:
+      - text: "Bio"
+        href: index.qmd
+      - text: "Writing"
+        href: writing.qmd
+      - text: "Projects"
+        href: projects.qmd
+  page-footer:
+    left: "© Ali Arbabian"
+    right:
+      - text: "RSS"
+        href: writing.xml
+  open-graph: true
+  twitter-card: true
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles/tufte.scss
+    toc: true
+    toc-location: right
+    code-copy: true
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-in-header:
+      text: |
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+execute:
+  freeze: auto

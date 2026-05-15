@@ -1,0 +1,19 @@
+---
+title: "Projects"
+description: "Selected projects and experiments."
+page-layout: article
+---
+
+## Selected Projects
+
+### First Project
+
+Add the first external project here once the public URL and short description are ready.
+
+- Link: add the public project URL before launch.
+- Status: placeholder
+- Focus: concise technical summary of what the project does and why it matters.
+
+## Future Work
+
+Use this page as a lightweight index rather than a full portfolio. Each project should have a short description, a link, and a note about the core technical idea.

@@ -1,0 +1,30 @@
+---
+title: "Ali Arbabian"
+description: "A concise academic-style profile page."
+page-layout: article
+---
+
+::: {.profile-header}
+::: {.profile-copy}
+I work on practical software systems, machine learning, and technical writing. This site collects a short bio, project notes, and longer articles about engineering ideas worth returning to.
+
+My current interests include machine learning systems, developer tools, autonomous systems, applied research, media tooling, and concise technical communication.
+:::
+:::
+
+## Research and Technical Interests
+
+- Machine learning systems that make model behavior observable, testable, and useful in production.
+- Tools for turning messy real-world media, text, and data into reliable workflows.
+- Interfaces for technical users where the product surface stays quiet and the capability is deep.
+- Writing that connects implementation details to the larger engineering decisions behind them.
+
+## Selected Links
+
+- [Writing](writing.qmd): technical notes and essays.
+- [Projects](projects.qmd): software projects and experiments.
+- GitHub: add the public profile link before launch.
+
+## Now
+
+This page is intentionally compact. Add the most current affiliation, location, research focus, and contact links here as the site becomes public.
