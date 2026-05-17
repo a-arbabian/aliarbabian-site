@@ -1,6 +1,5 @@
 ---
 title: "Ali Arbabian"
-description: "Machine learning researcher focused on representation learning, content similarity, retrieval, and computer vision systems."
 page-layout: article
 ---
 

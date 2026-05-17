@@ -1,18 +1,21 @@
 ---
 title: "Projects"
-description: "Selected projects in semantic media search and retrieval."
+description: "Selected software projects and experiments."
 page-layout: article
 ---
 
-## Cinemantic
+## Selected Projects
 
 ### [cinemantic](https://cinemantic.aliarby.com)
 
-Cinemantic is a semantic search interface for exploring a large archive of movie frames. Instead of navigating by title, timestamp, or hand-written tags, it lets a user search visually: composition, objects, scenes, lighting, mood, and other concepts that are hard to capture with traditional metadata.
+Cinemantic is a semantic search interface for exploring a large archive of movie frames. Instead of navigating by title, timestamp, or hand-written tags, it lets a user search visually: composition, objects, scenes, lighting, mood, and other visual concepts.
 
-The project exists to make visual archives feel directly searchable. A frame collection becomes more useful when it can be queried by meaning, not only by filenames or database fields. Cinemantic uses embedding-based retrieval to surface visually and semantically related frames, making it easier to discover patterns across films and move through media collections by intent.
 
-Technically, it is a media discovery system built around image embeddings, vector search, and a lightweight web interface for browsing results. It is a public project for experimenting with how retrieval models change the experience of working with dense visual data.
+### [code-indexer](https://github.com/a-arbabian/code-indexer)
+
+Code-indexer is a tool for creating compact structural views of source code for LLM context and retrieval workflows. It uses tree-sitter to create and maintain the code skeleton as a token-efficient map of a codebase.  
+
+It focuses on extracting token-efficient code skeletons that can help an LLM navigate larger repositories with less context overhead.
 
 ## More
 
