@@ -1,32 +1,25 @@
 ---
 title: "Ali Arbabian"
-description: "A concise academic-style profile page."
+description: "Machine learning researcher focused on representation learning, content similarity, retrieval, and computer vision systems."
 page-layout: article
 ---
 
 ::: {.profile-header}
-::: {.profile-copy}
-I am a machine learning engineer working on applied ML, computer vision, and the software systems around them. I currently work at Meta, and previously worked on ML and computer vision for autonomous retail systems.
+```{=html}
+<div class="profile-photo">
+  <img src="assets/ali-headshot.jpg">
+</div>
+```
 
-I use this site for projects and notes around AI research, retrieval, media tooling, and software as a medium.
+::: {.profile-copy}
+I am a machine learning researcher working on representation learning and large-scale content similarity at Meta. My work focuses on image, video, and audio representations, similarity search, self-supervised learning, and evaluation for highly imbalanced ML systems.
+
+Previously, I built computer vision systems for checkout-free retail. Before that, I did applied research for deep learning in medical imaging. 
 :::
 :::
 
 ## Interests
 
-- Machine learning systems and computer vision for real-world products.
-- Search, retrieval, and code-understanding tools for working with large information spaces.
-- Media interfaces that make images, video, and text easier to explore.
-- Writing about AI research, engineering practice, and software as a creative material.
-
-## Links
-
-- [Writing](writing.qmd): technical notes and essays.
-- [Projects](projects.qmd): software projects and experiments.
-- [GitHub](https://github.com/a-arbabian): code and open-source work.
-- [LinkedIn](https://www.linkedin.com/in/a-arbabian/): work experience and professional background.
-- [Bear Blog archive](https://aliarby.bearblog.dev/): earlier writing and project notes.
-
-## Work
-
-I am based in Vancouver and work across applied machine learning, product engineering, and tools for understanding visual and textual data.
+- Deep learning representations for image, video, and audio.
+- Self-supervised learning and multimodal embedding models.
+- Similarity search, retrieval evaluation, and vector indexing.

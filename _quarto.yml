@@ -6,15 +6,18 @@ website:
   title: "Ali Arbabian"
   site-url: "https://aliarbabian.com"
   description: "Personal site and technical writing by Ali Arbabian."
+  draft-mode: unlinked
   navbar:
     pinned: true
     left:
       - text: "Bio"
         href: index.qmd
-      - text: "Writing"
+      - text: "Technical Writing"
         href: writing.qmd
       - text: "Projects"
         href: projects.qmd
+      - text: "Resume"
+        href: assets/resume.pdf
   page-footer:
     left: "© Ali Arbabian"
     right:
@@ -32,7 +35,7 @@ format:
     theme:
       - cosmo
       - styles/tufte.scss
-    toc: true
+    toc: false
     toc-location: right
     code-copy: true
     anchor-sections: true

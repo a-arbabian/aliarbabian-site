@@ -1,8 +1,12 @@
-/.quarto/
-/_site/
+.quarto/
+_site/
 /.freeze/
 /.cache/
 /.DS_Store
 *.log
+posts/quarto-tufte-showcase.qmd
+posts/quarto-tufte-showcase_files/
+assets/tufte-margin-diagram.svg
 
+/.quarto/
 **/*.quarto_ipynb

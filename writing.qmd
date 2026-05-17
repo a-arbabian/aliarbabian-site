@@ -1,9 +1,12 @@
 ---
-title: "Writing"
-description: "Technical articles and notes."
+title: "Technical Writing"
+description: "Technical articles and notes on machine learning systems, retrieval, and engineering practice."
 page-layout: article
+listing:
+  contents: "posts/*.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
 ---
-
-Notes on AI research, software as a medium, machine learning systems, and engineering practice.
-
-No long-form posts are published here yet. Older notes live at [aliarby.bearblog.dev](https://aliarby.bearblog.dev/).

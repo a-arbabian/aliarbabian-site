@@ -1,24 +1,19 @@
 ---
 title: "Projects"
-description: "Selected projects and experiments."
+description: "Selected projects in semantic media search and retrieval."
 page-layout: article
 ---
 
-## Selected Projects
+## Cinemantic
 
 ### [cinemantic](https://cinemantic.aliarby.com)
 
-Semantic search over a large collection of movie frames, roughly 150k images. The project explores how embedding-based search changes the way visual archives can be navigated.
+Cinemantic is a semantic search interface for exploring a large archive of movie frames. Instead of navigating by title, timestamp, or hand-written tags, it lets a user search visually: composition, objects, scenes, lighting, mood, and other concepts that are hard to capture with traditional metadata.
 
-### [code-indexer](https://github.com/a-arbabian/code-indexer)
+The project exists to make visual archives feel directly searchable. A frame collection becomes more useful when it can be queried by meaning, not only by filenames or database fields. Cinemantic uses embedding-based retrieval to surface visually and semantically related frames, making it easier to discover patterns across films and move through media collections by intent.
 
-Token-efficient structural skeletons from source files for LLM context and retrieval. The goal is to preserve the shape of a codebase while keeping prompts and retrieval payloads compact.
+Technically, it is a media discovery system built around image embeddings, vector search, and a lightweight web interface for browsing results. It is a public project for experimenting with how retrieval models change the experience of working with dense visual data.
 
-### [chess_theory_tree_visualizer](https://github.com/a-arbabian/chess_theory_tree_visualizer)
-
-A tree visualization for chess game databases, mapping games into opening theory and ECO-code structure.
-
-## Profiles
+## More
 
 - [GitHub](https://github.com/a-arbabian)
-- [LinkedIn](https://www.linkedin.com/in/a-arbabian/)
